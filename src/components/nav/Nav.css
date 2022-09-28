@@ -1,0 +1,17 @@
+.product a{
+    text-decoration: none;
+    padding: 20px;
+    color: tomato;
+}
+.product{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: 25px;
+}
+.product a:hover{
+    color: aqua;
+    background-color: azure;
+}

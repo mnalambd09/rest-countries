@@ -1,0 +1,19 @@
+.product-container{
+display: grid;
+grid-template-columns: 4fr 1fr;
+background-color: aqua;
+}
+.item-container{
+    background-color: yellowgreen;
+    color: white;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+.cartDetails{
+    position: sticky;
+    top: 0px;
+    padding: 50px;
+}
